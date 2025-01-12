@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="In diepgaande uitleg over de verschillende types van computernetwerken zoals LAN, WAN, MAN en PAN.">
+    <title>Types van Netwerken - Computer Netwerken</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+            text-decoration: underline;
+        }
+        section {
+            padding: 30px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #333;
+            font-size: 24px;
+        }
+        section p {
+            color: #555;
+            font-size: 16px;
+        }
+        section ul {
+            color: #555;
+            font-size: 16px;
+        }
+        section ul li {
+            margin: 10px 0;
+        }
+        .highlight {
+            color: #0066cc;
+        }
+        .example-box {
+            background-color: #f0f8ff;
+            border-left: 5px solid #0066cc;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        /* Extra styling for better layout */
+        @media (max-width: 768px) {
+            nav {
+                text-align: left;
+                padding: 15px;
+            }
+            nav a {
+                margin: 10px 0;
+                display: block;
+                text-align: left;
+            }
+            section {
+                margin: 10px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Types van Netwerken</h1>
+    <p>Informatie en voorbeelden over de verschillende netwerktypes.</p>
+</header>
+
+<nav>
+    <a href="index.html">Terug naar de Hoofdpagina</a>
+    <a href="#lan">Lokaal Netwerk (LAN)</a>
+    <a href="#wan">Wide Area Network (WAN)</a>
+    <a href="#man">Metropolitan Area Network (MAN)</a>
+    <a href="#pan">Personal Area Network (PAN)</a>
+</nav>
+
+<section id="lan">
+    <h2>Lokaal Netwerk (LAN)</h2>
+    <p>
+        Een <strong>Lokaal Netwerk (LAN)</strong> is een netwerk dat computers, printers en andere apparaten verbindt binnen een relatief klein gebied, zoals een huis, kantoor of school. LAN's maken gebruik van fysieke verbindingen (zoals Ethernet-kabels) of draadloze technologieën (zoals Wi-Fi) om apparaten met elkaar te verbinden.
+    </p>
+    <p><span class="highlight">Voordelen:</span></p>
+    <ul>
+        <li>Snelle communicatie tussen apparaten.</li>
+        <li>Kosteneffectief omdat het netwerk beperkt is tot een klein gebied.</li>
+        <li>Betere controle en beheer van apparaten en gegevens.</li>
+    </ul>
+    <p><span class="highlight">Nadelen:</span></p>
+    <ul>
+        <li>Beperkingen in het bereik; LAN's kunnen alleen binnen een klein geografisch gebied werken.</li>
+        <li>Beveiliging kan een uitdaging zijn als het netwerk niet goed wordt beheerd.</li>
+    </ul>
+    <div class="example-box">
+        <p><strong>Voorbeeld:</strong> Een kantoor met 10 computers, een printer en een internetverbinding kan eenvoudig worden verbonden via een LAN. Dit maakt snelle communicatie en toegang tot gedeelde middelen mogelijk, zoals printers en bestanden.</p>
+    </div>
+</section>
+
+<section id="wan">
+    <h2>Wide Area Network (WAN)</h2>
+    <p>
+        Een <strong>Wide Area Network (WAN)</strong> is een netwerk dat zich over een groter geografisch gebied uitstrekt, vaak over meerdere steden of landen. Het bekendste voorbeeld van een WAN is het internet zelf. WAN's maken gebruik van openbare netwerken of privéverbindingen, zoals glasvezel of satellietverbindingen.
+    </p>
+    <p><span class="highlight">Voordelen:</span></p>
+    <ul>
+        <li>Verbindt geografisch gespreide kantoren en gebruikers.</li>
+        <li>Maakt wereldwijde communicatie en samenwerking mogelijk.</li>
+    </ul>
+    <p><span class="highlight">Nadelen:</span></p>
+    <ul>
+        <li>Hogere kosten voor infrastructuur en onderhoud.</li>
+        <li>Lagere snelheid en hogere latentie in vergelijking met LAN's vanwege lange afstanden.</li>
+    </ul>
+    <div class="example-box">
+        <p><strong>Voorbeeld:</strong> Grote bedrijven hebben vaak WAN's die hun hoofdkantoor in één stad verbinden met vestigingen in andere steden of landen. Dit zorgt ervoor dat werknemers op verschillende locaties toegang hebben tot dezelfde data en systemen.</p>
+    </div>
+</section>
+
+<section id="man">
+    <h2>Metropolitan Area Network (MAN)</h2>
+    <p>
+        Een <strong>Metropolitan Area Network (MAN)</strong> is een netwerk dat een groter geografisch gebied bestrijkt dan een LAN, maar kleiner dan een WAN. Het is ideaal voor netwerken die zich over een stad of regio uitstrekken, zoals de netwerken die worden gebruikt door stadsbesturen of grote universiteiten.
+    </p>
+    <p><span class="highlight">Voordelen:</span></p>
+    <ul>
+        <li>Snellere communicatie dan WAN's vanwege kortere afstanden.</li>
+        <li>Goed voor stadsbrede netwerken, bijvoorbeeld voor stadsservices of openbare Wi-Fi.</li>
+    </ul>
+    <p><span class="highlight">Nadelen:</span></p>
+    <ul>
+        <li>Beperkingen in het geografische bereik (slechts één stad of regio).</li>
+        <li>Kan duur zijn om te onderhouden, vooral bij gebruik van glasvezel.</li>
+    </ul>
+    <div class="example-box">
+        <p><strong>Voorbeeld:</strong> Een universiteit met meerdere campussen in één stad kan een MAN gebruiken om hun netwerken met elkaar te verbinden, zodat studenten en medewerkers overal toegang hebben tot gedeelde middelen en systemen.</p>
+    </div>
+</section>
+
+<section id="pan">
+    <h2>Personal Area Network (PAN)</h2>
+    <p>
+        Een <strong>Personal Area Network (PAN)</strong> is een klein netwerk dat apparaten verbindt die dichtbij elkaar liggen, meestal binnen de omgeving van één persoon. Een PAN maakt vaak gebruik van draadloze technologieën zoals Bluetooth of infrarood.
+    </p>
+    <p><span class="highlight">Voordelen:</span></p>
+    <ul>
+        <li>Ideaal voor het verbinden van persoonlijke apparaten zoals smartphones, laptops en wearables.</li>
+        <li>Consumenten kunnen draadloos gegevens delen zonder complexe netwerken.</li>
+    </ul>
+    <p><span class="highlight">Nadelen:</span></p>
+    <ul>
+        <li>Beperkingen in bereik (meestal 10 meter of minder).</li>
+        <li>Kan kwetsbaar zijn voor beveiligingsproblemen bij onbeveiligde verbindingen.</li>
+    </ul>
+    <div class="example-box">
+        <p><strong>Voorbeeld:</strong> Een persoon kan hun smartphone via Bluetooth verbinden met hun draadloze hoofdtelefoon, een draadloze muis en een laptop in een PAN-netwerk.</p>
+    </div>
+</section>
+
+</body>
+</html>
 
